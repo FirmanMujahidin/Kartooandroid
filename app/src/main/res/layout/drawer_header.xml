@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/ColorPrimary">
+
+        <ProgressBar
+            android:id="@+id/mPBlevel"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:max="400"
+            android:progress="350"
+            android:background="@drawable/shape_circular_level_bg"
+            android:progressDrawable="@drawable/shape_circular_level"
+            android:indeterminate="false"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:background="@drawable/ic_profil_pict"
+            style="@style/profilePicture"
+            android:id="@+id/mIVprofilePicture"
+            android:layout_alignBottom="@+id/mPBlevel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi, John"
+            android:id="@+id/mTVname"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_below="@+id/mPBlevel"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1450"
+            android:id="@+id/mTVexp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/mIVexp"
+            android:layout_toEndOf="@+id/mIVexp"
+            android:paddingLeft="5dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:id="@+id/mTVnotificationCount"
+            android:background="@drawable/shape_pink_rc"
+            android:textSize="12sp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</RelativeLayout>

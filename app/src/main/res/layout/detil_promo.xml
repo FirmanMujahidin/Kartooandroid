@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_detail_promo"
+    tools:context="co.kartoo.app.DetailPromoActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <ImageView
+                android:transitionName="mainImage"
+                android:id="@+id/mIVpromodetail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <View
+                android:background="@drawable/rect_gradient_header_detil"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:transitionName="mainText"
+                android:layout_marginRight="80dp"
+                android:textColor="@color/title"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mTVpromoName" />
+            <ImageView
+                android:layout_marginRight="16dp"
+                android:background="@drawable/ic_favorite_blue"
+                app:layout_collapseMode="pin"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/Favorite"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/Share"
+                android:layout_toStartOf="@+id/Share" />
+            <ImageView
+                android:background="@drawable/ic_share_blue"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/Share"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:layout_gravity="center"
+            android:id="@+id/avi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indicatorName="BallPulseIndicator"
+            app:indicatorColor="@color/ColorPrimaryYellow" />
+
+        <LinearLayout
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:id="@+id/placeHolderview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:background="@color/grey3"
+                android:layout_width="150dp"
+                android:layout_height="20dp"
+                android:layout_weight="1">
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="16dp"
+                android:background="@color/grey3"
+                android:layout_width="200dp"
+                android:layout_height="16dp"
+                android:layout_weight="1">
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="16dp"
+                android:background="@color/grey3"
+                android:layout_weight="1"
+                android:layout_width="200dp"
+                android:layout_height="16dp">
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/All"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="@color/title"
+                android:textSize="17sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mTVpromoSubtitle" />
+
+            <TextView
+                android:textColor="@color/validuntil"
+                android:textStyle="italic"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mTVdate"
+                android:layout_below="@+id/mIVshare"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    style="@style/sectionHeader"
+                    android:textSize="14sp"
+                    android:textColor="@color/grey0" />
+
+                <TextView
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mTVtermsConditions"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp" />
+                <RelativeLayout
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Valid Cards"
+                        android:layout_gravity="left"
+                        android:textStyle="bold"
+                        android:textColor="@color/title" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_marginRight="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Call"
+                            android:id="@+id/CallBank"
+                            android:layout_gravity="left"
+                            android:textStyle="bold"
+                            android:textColor="@color/main_textcolor"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true" />
+                        <ImageView
+                            android:background="@android:drawable/ic_menu_call"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toLeftOf="@+id/CallBank"
+                            android:layout_toStartOf="@+id/CallBank"
+                            android:layout_marginRight="9dp"
+                            android:layout_marginEnd="9dp" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/mRVapplicableCards"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:scrollbars="horizontal"
+                    android:scrollbarSize="0dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show Applicable Cards!"
+                    android:id="@+id/mTVapplicableCards"
+                    android:visibility="gone"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <!--
+                                        <ImageView
+                                            android:layout_width="15dp"
+                                            android:layout_height="15dp"
+                                            android:id="@+id/imageView7"
+                                            android:background="@drawable/ic_bank" />
+                    -->
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BCA"
+                        android:id="@+id/mTVbank"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="8dp" />
+                </LinearLayout>
+
+                <Button
+                    android:textSize="15sp"
+                    style="@style/BtnCoral"
+                    android:visibility="gone"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </Button>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/mLLmaps"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <fragment
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:id="@+id/map"
+                        android:layout_width="fill_parent"
+                        android:layout_height="200dp"/>
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:scrollbars="vertical"
+                        android:scrollbarSize="0dp"
+                        android:id="@+id/mLVseeAll"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                    </android.support.v7.widget.RecyclerView>
+                    <TextView
+                        android:textColor="@color/view_all_textcolor"
+                        android:layout_marginTop="2dp"
+                        android:textSize="17sp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/mTVviewAll"
+                        android:text="View All"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:visibility="gone"
+                    android:id="@+id/BtnPromoUrl"
+                    android:layout_gravity="center_horizontal"
+                    style="@style/BtnCoral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/mIVmap"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More Information"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/grey0" />
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp">
+                    <ImageView
+                        android:id="@+id/mail"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/web"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/fb"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <!--
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/mRVlocationoutlet"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"/>
+    -->
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="8dp">
+                    <TextView
+                        android:layout_marginLeft="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Similar Promotions"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="0dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/grey0" />
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/mRVsimilarPromo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="162dp"
+                        android:scrollbars="horizontal"/>
+
+                </LinearLayout>
+                <!--
+                                <android.support.v7.widget.RecyclerView
+                                    android:id="@+id/mRVoutlets"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:scrollbars="horizontal"/>
+                                    -->
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

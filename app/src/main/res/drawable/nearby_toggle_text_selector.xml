@@ -1,0 +1,10 @@
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:textColor="@color/ColorPrimary"
+        android:state_checked="true" />
+    <item
+        android:textColor="@color/grey0"
+        android:state_checked="false" />
+</selector>

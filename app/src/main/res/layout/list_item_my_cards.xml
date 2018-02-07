@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:id="@+id/linier"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.joooonho.SelectableRoundedImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/mIVcardImg"
+            app:sriv_left_top_corner_radius="5dp"
+            app:sriv_right_top_corner_radius="5dp"
+            app:sriv_left_bottom_corner_radius="5dp"
+            app:sriv_right_bottom_corner_radius="5dp"/>
+
+        <TextView
+            android:layout_marginRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BNI Visa Gold"
+            android:id="@+id/mTVcardName"
+            style="@style/header4"
+            android:paddingBottom="10dp"
+            android:ellipsize="end" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/mLLcontainer"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Check In"
+            android:id="@+id/textView11"
+            android:textColor="#000"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/mTVlastCheckinTime"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/mTVlastCheckinPlace"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/mIVdelete"
+        android:background="@android:drawable/ic_delete"
+        android:layout_alignBottom="@+id/linier"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <View
+        android:layout_below="@+id/linier"
+        android:layout_width="fill_parent"
+        android:background="#606060"
+        android:layout_height="0.5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

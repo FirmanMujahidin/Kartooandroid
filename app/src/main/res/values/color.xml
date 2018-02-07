@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <!--<color name="textColorPrimary">#FFF</color>-->
+    <color name="ColorPrimary">#1C3664</color>
+    <color name="ColorPrimaryDark">#182E55</color>
+    <color name="BlueDark">#000763</color>
+
+    <color name="ColorPrimaryYellow">#FAAC18</color>
+    <color name="windowBackground">#F2F2F2</color>
+    <color name="tabsScrollColor">#8a140e</color>
+
+    <color name="editprofiltext">#959595</color>
+    <color name="transparent_white">#CCFFFFFF</color>
+
+    <color name="darkPink">#79184F</color>
+    <color name="pink">#BF1287</color>
+    <color name="green">#00ff00</color>
+
+    <color name="dark">#1B1B1B</color>
+    <color name="coral">#ef5756</color>
+    <color name="grey0">#444444</color>
+    <color name="grey1">#9E9E9E</color>
+    <color name="grey15">#777</color>
+    <color name="grey2">#BBBBBB</color>
+    <color name="grey3">#DDDDDD</color>
+    <color name="grey4">#D1D1D1</color>
+
+    <color name="black_tsp">#80000000</color>
+    <color name="black_tsp_1">#30000000</color>
+    <color name="black_light_tsp">#06000000</color>
+
+    <color name="primary">#ed1c24</color>
+    <color name="primary_dark">#f37022</color>
+    <color name="accent">#ff9800</color>
+    <color name="accent_dark">#ed1c24</color>
+
+    <color name="page_background">#F2F2F2</color>
+    <color name="line_gray">#ACACAC</color>
+
+    <color name="btn_gradient_start">#f31c24</color>
+    <color name="btn_gradient_end">#ed1c24</color>
+    <color name="btn_disable">#D7DCDF</color>
+
+    <color name="bg_drawer_list_odd">#5a5a5a</color>
+    <color name="bg_drawer_list_even">#4a4a4a</color>
+    <color name="bg_drawer_list_divider">#707070</color>
+    <color name="bg_drawer_list_selected">#dbdbdb</color>
+    <color name="bg_drawer_list_text_selected">#f36e1f</color>
+    <color name="bg_menu_item_even">#f2f2f2</color>
+    <color name="bg_menu_item_odd">#e6e6e6</color>
+    <color name="bg_menu_item_pressed">#484848</color>
+    <color name="bg_menu_item_divider">#d0d0d0</color>
+    <color name="bg_hyperlink">#DBDBDB</color>
+    <color name="bg_header_home_start">#777777</color>
+    <color name="bg_header_home_end">#ed1c24</color>
+    <color name="bg_menu_bar_bottom_start">#ffd91f</color>
+    <color name="bg_menu_bar_bottom_end">#ffd91f</color>
+    <color name="bg_menu_bar_bottom_end_transparent">#000E0E0E</color>
+
+    <color name="font_general">#262626</color>
+    <color name="font_form_input">#b4b4b4</color>
+    <color name="font_form_error">#FF0000</color>
+    <color name="font_hyperlink">#989898</color>
+
+    <color name="logo_colour">#feac41</color>
+
+    <color name="dead_button">#1f9fb5</color>
+
+    <color name="title">#707070</color>
+    <color name="validuntil">#acacac</color>
+
+    <color name="placeholder">#acacac</color>
+
+    <color name="refresh_progress_1">#1C3664</color>
+    <color name="refresh_progress_2">#FAAC18</color>
+    <color name="refresh_progress_3">#80000000</color>
+
+    <color name="transparent">#99000000</color>
+
+    <color name="opaque_red">#f00</color>
+    <color name="translucent_red">#80ff0000</color>
+
+
+</resources>

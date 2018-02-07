@@ -1,0 +1,101 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <!--<item-->
+        <!--android:id="@+id/drawer_my_feed"-->
+        <!--android:checked="false"-->
+        <!--android:icon="@drawable/ic_drawer_feed"-->
+        <!--android:title="@string/my_feed_title" />-->
+        <!--<item-->
+        <!--android:id="@+id/drawer_notifications"-->
+        <!--android:checked="false"-->
+        <!--android:icon="@drawable/ic_notification_green"-->
+        <!--android:title="@string/notification_title" />-->
+
+        <item
+            android:id="@+id/drawer_liked_promo"
+            android:checked="false"
+            android:icon="@drawable/sb_like"
+            android:title="PROMOS YOU'VE LIKED" />
+    </group>
+
+    <!--<item-->
+    <!--android:id="@+id/drawer_leaderboard"-->
+    <!--android:checked="false"-->
+    <!--android:icon="@drawable/ic_drawer_leaderboard"-->
+    <!--android:title="@string/leaderboard_title" />-->
+    <!--<item-->
+    <!--android:id="@+id/drawer_friends"-->
+    <!--android:checked="false"-->
+    <!--android:icon="@drawable/ic_drawer_friend_add"-->
+    <!--android:title="@string/my_friend_title" />-->
+    <!--<item-->
+    <!--android:id="@+id/drawer_banks"-->
+    <!--android:checked="false"-->
+    <!--android:icon="@drawable/ic_bank"-->
+    <!--android:title="@string/banks_title" />-->
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/drawer_my_cards"
+            android:checked="false"
+            android:icon="@drawable/sb_wallet"
+            android:title="MY CARDS" />
+    </group>
+
+    <group android:id="@+id/group5">
+        <item
+            android:id="@+id/bank_page"
+            android:checked="false"
+            android:icon="@drawable/sb_bank"
+            android:title="BANK FEED" />
+    </group>
+
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/drawer_bookmark"
+            android:checked="false"
+            android:icon="@drawable/sb_edit_profile"
+            android:title="EDIT PROFILE" />
+    </group>
+
+    <group android:id="@+id/group6">
+        <item
+            android:id="@+id/drawer_notif"
+            android:checked="false"
+            android:icon="@drawable/notification"
+            android:title="NOTIFICATIONS" />
+    </group>
+
+    <!--<item-->
+    <!--android:id="@+id/drawer_search"-->
+    <!--android:checked="false"-->
+    <!--android:icon="@drawable/ic_drawer_search"-->
+    <!--android:title="@string/search_title" />-->
+    <!--<item-->
+    <!--android:id="@+id/drawer_settings"-->
+    <!--android:checked="false"-->
+    <!--android:icon="@drawable/ic_gear_green"-->
+    <!--android:title="@string/settings_title" />-->
+    <group android:id="@+id/group4">
+        <item
+            android:id="@+id/drawer_rate"
+            android:checked="false"
+            android:title="@string/rate_title" />
+
+
+        <item
+            android:id="@+id/contact_us_title"
+            android:checked="false"
+            android:title="@string/contact_us_title" />
+
+        <item
+            android:id="@+id/drawer_about"
+            android:checked="false"
+            android:title="About" />
+
+        <item
+            android:id="@+id/drawer_logout"
+            android:checked="false"
+            android:title="@string/logout_title" />
+    </group>
+</menu>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="162dp">
+
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:transitionName="mainImage"
+        android:id="@+id/mLLcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/rect_gradient_header" />
+    <RelativeLayout
+        android:id="@+id/band"
+        android:layout_marginLeft="-20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+        <FrameLayout
+            android:background="@drawable/band"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:paddingTop="15dp"
+            android:rotation="-45"
+            android:textSize="12sp"
+            android:gravity="center_horizontal"
+            android:id="@+id/mTVband"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="BCA"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:paddingBottom="12dp"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/mTVoutletPlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="New Text"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:transitionName="mainText"
+                android:textColor="#fff"
+                android:textSize="17sp"
+                android:id="@+id/mTVoutletName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:id="@+id/mTVoutletPromo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="35% off all meals"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rounded_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:id="@+id/mTVbank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BCA"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

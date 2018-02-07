@@ -1,0 +1,109 @@
+{
+  "project_info": {
+    "project_number": "136945608372",
+    "firebase_url": "https://kartoo-1082.firebaseio.com",
+    "project_id": "kartoo-1082",
+    "storage_bucket": "kartoo-1082.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136945608372:android:d4f7fb2d21df5371",
+        "android_client_info": {
+          "package_name": "id.vesperia.kartoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136945608372-obfen4u6shhag7bamimjjg70ar9l0ar8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "136945608372-rk4c1qpnicjb049fh6u77hf7vsqvu5n4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDe5Q_pt6jMtQqWNFiewSWQm_DztdPJDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136945608372:android:fff6e0f5c1235cc8",
+        "android_client_info": {
+          "package_name": "co.kartoo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136945608372-obfen4u6shhag7bamimjjg70ar9l0ar8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "136945608372-rk4c1qpnicjb049fh6u77hf7vsqvu5n4.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "136945608372-p146p5b4sigrmj10dcpcaqn9qjk7jfgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.kartoo.app",
+            "certificate_hash": "2ed83c76e67a5ee24fbbd1850c78e83d2015bb34"
+          }
+        },
+        {
+          "client_id": "136945608372-73a86hom3eg4o71pc539mvavfjljmv8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.kartoo.app",
+            "certificate_hash": "93fc19af6aa2362d2460d65ccc6d241bcf01f7a5"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDe5Q_pt6jMtQqWNFiewSWQm_DztdPJDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136945608372-obfen4u6shhag7bamimjjg70ar9l0ar8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "136945608372-pnvenni76bcutfdcg09kb33v6tkcftgi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.Kartoo.app.Kartoo"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="16dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp">
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="1dp"
+        android:background="#000"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/mIVicon"
+        android:layout_alignEnd="@+id/mIVicon"
+        android:layout_marginRight="17.5dp"
+        android:id="@+id/view" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/mIVicon"
+        android:background="#000"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mIVicon"
+        android:layout_toRightOf="@+id/view"
+        android:id="@+id/linearLayout"
+        android:layout_toLeftOf="@+id/mTVtime"
+        android:layout_toStartOf="@+id/mTVtime"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check in at "
+                android:id="@+id/TVbody" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1h"
+        android:id="@+id/mTVtime"
+        android:paddingTop="5dp"
+        android:layout_alignTop="@+id/mIVicon"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/IVpicture"
+        android:layout_below="@+id/linearLayout"
+        android:layout_toRightOf="@+id/mIVicon"
+        android:layout_toEndOf="@+id/mIVicon"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>

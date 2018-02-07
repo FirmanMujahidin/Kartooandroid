@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="co.kartoo.app.landing.LoginActivity">
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/logo"
+                android:background="@drawable/minim_logo"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:focusableInTouchMode="true"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_below="@+id/TextLayout"
+                    android:id="@+id/TextLayout2"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:inputType="textEmailAddress"
+                        android:textColorHint="#FFFFFF"
+                        android:textColor="#FFFFFF"
+                        android:drawablePadding="10dp"
+                        android:hint="Email"
+                        android:drawableLeft="@drawable/icon_mail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mETEmail"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/TextLayout"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:textColorHint="#FFFFFF"
+                        android:textColor="#FFFFFF"
+                        android:drawablePadding="10dp"
+                        android:hint="Full Name"
+                        android:drawableLeft="@drawable/icon_uname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mETFullname"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/TextLayout3"
+                    android:layout_below="@+id/TextLayout2"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:inputType="textPassword"
+                        android:textColorHint="#FFFFFF"
+                        android:textColor="#FFFFFF"
+                        android:drawablePadding="10dp"
+                        android:hint="Password"
+                        android:drawableLeft="@drawable/icon_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mETPassword"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/TextLayout4"
+                    android:layout_below="@+id/TextLayout3"
+                    android:textColorHint="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:inputType="textPassword"
+                        android:textColorHint="#FFFFFF"
+                        android:textColor="#FFFFFF"
+                        android:drawablePadding="10dp"
+                        android:hint="Confirm Password"
+                        android:drawableLeft="@drawable/icon_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mETConfirmPassword"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </android.support.design.widget.TextInputLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TextLayout4"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="By creating an account, you agree to our"
+                        android:id="@+id/textView13"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                    <TextView
+                        android:textColor="@color/forgotpassword_textcolor"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/TermAndCondition"
+                        android:layout_below="@+id/textView13"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_marginLeft="4dp"
+                        android:textColor="@color/forgotpassword_textcolor"
+                        android:textSize="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="and"
+                        android:id="@+id/and"
+                        android:layout_below="@+id/textView13"
+                        android:layout_toRightOf="@+id/TermAndCondition"
+                        android:layout_toEndOf="@+id/TermAndCondition" />
+                    <TextView
+                        android:layout_below="@+id/textView13"
+                        android:textColor="@color/forgotpassword_textcolor"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Privacy Policy."
+                        android:id="@+id/Privacy"
+                        android:layout_toRightOf="@+id/and"
+                        android:layout_toEndOf="@+id/and"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <Button
+                    android:id="@+id/mBtnSignupEmail"
+                    android:text="SIGN UP"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/BtnCoral"/>
+                <TextView
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="or"
+                    android:id="@+id/textView6"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#FFF" />
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        style="@style/BtnFb"
+                        android:id="@+id/mBtnFb"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:text="FACEBOOK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        style="@style/BtnGoogle"
+                        android:id="@+id/mBtnGplus"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="2"
+                        android:text="GOOGLE"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="15sp"
+                        android:textColor="#fff"
+                        android:text="Already member? "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView" />
+                    <TextView
+                        android:textColor="@color/main_textcolor"
+                        android:id="@+id/mTVlogin"
+                        android:textSize="15sp"
+                        android:text="Log In Here"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

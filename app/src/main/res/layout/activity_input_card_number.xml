@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_input_card_number"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.kartoo.app.cards.suggestioncard.applycard.InputCardNumberActivity">
+
+        <RelativeLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/number"
+                android:layout_below="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:maxLength="19"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:drawablePadding="10dp"
+                    android:hint="Credit Card Number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mETccNumber"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:drawablePadding="10dp"
+                    android:hint="Nama Pemegang Kartu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mETccType"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_below="@+id/number"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_weight="1"
+                    android:id="@+id/valid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true">
+                <EditText
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:drawablePadding="10dp"
+                    android:hint="Valid Thru"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mETvalid"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:visibility="invisible"
+                    android:layout_weight="1"
+                    android:id="@+id/cvv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:drawablePadding="10dp"
+                        android:hint="CVV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mETcvv"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+        </RelativeLayout>
+</RelativeLayout>

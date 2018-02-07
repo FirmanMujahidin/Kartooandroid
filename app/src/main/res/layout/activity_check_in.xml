@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/windowBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mToolbar"
+                android:theme="@style/Theme.AppCompat.Light"
+                android:background="@color/ColorPrimary">
+
+            </android.support.v7.widget.Toolbar>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingRight="8dp"
+                android:id="@+id/mLLsearch"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:visibility="gone"
+                android:layout_toLeftOf="@+id/imageView9"
+                android:layout_toStartOf="@+id/imageView9"
+                android:paddingLeft="50dp">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/mIVsearchClear"
+                    android:background="#0ff" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTVtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check In"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textIsSelectable="false" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mIVok"
+                android:layout_weight="1"
+                android:background="@drawable/abc_btn_check_material"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/mFLcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF">
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

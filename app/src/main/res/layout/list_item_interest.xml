@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp"
+    android:layout_alignParentTop="true"
+    android:baselineAligned="false">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:background="@drawable/intro_1"
+            android:baselineAlignBottom="false"
+            android:id="@+id/mLLcontainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter">
+        </ImageView>
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="false"
+            android:scaleType="fitCenter"
+            android:id="@+id/mIVoverlay"
+            android:alpha="0.6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        </ImageView>
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="13dp"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="@color/white"
+                android:text="Dining"
+                android:id="@+id/mTVcatName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </FrameLayout>
+</LinearLayout>

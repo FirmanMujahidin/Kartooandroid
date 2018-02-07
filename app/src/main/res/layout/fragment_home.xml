@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ProgressBar
+        android:id="@+id/progressBarPopular"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="87dp"
+        android:foregroundGravity="center"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/timeOut"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Something went wrong."
+                android:textColor="@color/placeholder"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Please try again later."
+                android:textColor="@color/placeholder"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/reload"
+                style="@style/BtnReload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="Try Again" />
+
+            <!--<ImageView-->
+            <!--android:id="@+id/reload"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:background="@drawable/ic_refresh_black_24dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/noCard"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="#FAAC18"
+            android:visibility="visible">
+            <LinearLayout
+                android:id="@+id/wBorder"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"/>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="Personalize your promotions!"
+                android:textColor="#ffff"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/addCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView12"
+                android:layout_alignBottom="@+id/textView12"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="Add Card"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <co.kartoo.app.CustomSwipeToRefresh
+            android:layout_below="@+id/noCard"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swiperefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/mSVmain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_gravity="top">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="165dp"
+                            android:foregroundGravity="top">
+                            <ImageView
+                                android:id="@+id/mIVhomeheader"
+                                android:layout_width="match_parent"
+                                android:layout_height="165dp"
+                                android:background="@color/placeholder" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|bottom"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:orientation="horizontal">
+                                <FrameLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginBottom="13dp">
+                                    <ProgressBar
+                                        android:id="@+id/mPBlevel"
+                                        style="?android:attr/progressBarStyleHorizontal"
+                                        android:layout_width="95dp"
+                                        android:layout_height="95dp"
+                                        android:layout_gravity="center"
+                                        android:background="@drawable/shape_circular_level_bg"
+                                        android:indeterminate="false"
+                                        android:max="400"
+                                        android:progress="0"
+                                        android:progressDrawable="@drawable/shape_circular_level" />
+                                    <de.hdodenhof.circleimageview.CircleImageView
+                                        android:id="@+id/mIVprofilePicture"
+                                        style="@style/profilePicture"
+                                        android:layout_gravity="center" />
+                                </FrameLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="7dp"
+                                    android:orientation="vertical">
+                                    <TextView
+                                        android:id="@+id/mTVname"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_below="@+id/mPBlevel"
+                                        android:textColor="@color/white"
+                                        android:textSize="20sp"
+                                        android:textStyle="bold" />
+                                    <TextView
+                                        android:id="@+id/mTVmessage"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center_vertical"
+                                        android:textColor="#fff"
+                                        android:textStyle="italic|bold" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <View
+                                android:id="@+id/view3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/rect_gradient" />
+                        </FrameLayout>
+
+
+
+                        <ImageView
+                            android:id="@+id/mIVexp"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/ic_star_white"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/mTVexp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@+id/mIVexp"
+                            android:layout_toRightOf="@+id/mIVexp"
+                            android:paddingLeft="5dp"
+                            android:text="1450"
+                            android:textColor="@color/white"
+                            android:textStyle="italic"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/mTVnotificationCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="-5dp"
+                            android:layout_marginTop="-5dp"
+                            android:background="@drawable/shape_pink_rc"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="12"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#FFF"
+                        android:orientation="horizontal"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp">
+
+                        <TextView
+                            android:id="@+id/textView28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:layout_marginTop="0dp"
+                            android:text="POPULAR PROMOTIONS"
+                            android:textColor="@color/grey0"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <FrameLayout
+                        android:id="@+id/Popular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/mVPpopularPromo"
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:background="#ffffff"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp">
+                        </android.support.v4.view.ViewPager>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal|bottom"
+                            android:layout_marginBottom="25dp">
+                            <LinearLayout
+                                android:id="@+id/linearLayout4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="20dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/mIVindicator1"
+                                    android:layout_width="10dp"
+                                    android:layout_height="10dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp" />
+
+                                <ImageView
+                                    android:id="@+id/mIVindicator2"
+                                    android:layout_width="10dp"
+                                    android:layout_height="10dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp" />
+
+                                <ImageView
+                                    android:id="@+id/mIVindicator3"
+                                    android:layout_width="10dp"
+                                    android:layout_height="10dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp" />
+
+                                <ImageView
+                                    android:id="@+id/mIVindicator4"
+                                    android:layout_width="10dp"
+                                    android:layout_height="10dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp" />
+
+                                <ImageView
+                                    android:id="@+id/mIVindicator5"
+                                    android:layout_width="10dp"
+                                    android:layout_height="10dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </FrameLayout>
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_width="match_parent"
+
+                        android:layout_height="180dp"
+                        android:background="#ffffff"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:scrollbars="horizontal"
+                        android:visibility="gone">
+                    </android.support.v7.widget.RecyclerView>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#FFF"
+                        android:orientation="horizontal"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:layout_marginTop="0dp"
+                            android:text="HIGHLIGHTS"
+                            android:textColor="@color/grey0"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/mRVhighlight"
+                        android:layout_width="match_parent"
+                        android:layout_height="162dp"
+                        android:background="#ffffff"
+                        android:scrollbars="horizontal" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#FFF"
+                        android:orientation="horizontal"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp">
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:layout_marginTop="10dp"
+                            android:text="DISCOVER"
+                            android:textColor="@color/grey0"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/mRVdiscover"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="1dp"
+                        android:background="#ffffff"
+                        android:paddingRight="8dp"
+                        android:scrollbars="vertical" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyleSmall"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </ScrollView>
+
+        </co.kartoo.app.CustomSwipeToRefresh>
+
+    </LinearLayout>
+</RelativeLayout>

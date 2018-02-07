@@ -1,0 +1,10 @@
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:drawable="@drawable/shape_nearby_toggle"
+        android:state_checked="true" />
+    <item
+        android:drawable="@drawable/shape_nearby_toggle_inactive"
+        android:state_checked="false" />
+</selector>

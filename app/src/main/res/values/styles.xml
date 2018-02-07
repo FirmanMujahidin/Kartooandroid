@@ -1,0 +1,238 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/ColorPrimaryYellow</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+    </style>
+
+    <!--Theme pop up Window-->
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent_white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="RobotoTextViewStyle">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="whiteButton">
+        <item name="android:background">@drawable/shape_white_rc</item>
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--LANDING-->
+    <style name="LandingLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LandingImage">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_above">@+id/textView2</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LandingText">
+        <item name="android:textSize">13dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:lines">2</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:minLines">2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <!--END OF LANDING-->
+
+    <style name="profilePicture">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+
+    <style name="profilePictureDrawer">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+
+    <style name="signinSignupEdittext">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shape_transparent_edittext</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="landingEdittext">
+        <item name="android:textColor">@color/font_general</item>
+        <item name="android:background">@drawable/shape_transparent_edittext</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColorHint">@color/font_general</item>
+    </style>
+
+    <style name="BtnSkip">
+        <item name="android:textColor">@color/grey4</item>
+        <item name="android:background">@drawable/shape_btn_skip</item>
+    </style>
+
+    <style name="BtnVerify">
+        <item name="android:textColor">@color/BlueDark</item>
+        <item name="android:background">@drawable/shape_btn_verify</item>
+    </style>
+
+    <style name="BtnCoral">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shape_btn_coral_rc</item>
+    </style>
+
+    <style name="BtnReload">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shape_btn_reload</item>
+    </style>
+
+    <style name="BtnCards">
+        <item name="android:textColor">@color/ColorPrimaryYellow</item>
+        <item name="android:background">@drawable/shape_btn_cards</item>
+    </style>
+
+    <style name="BtnFb">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shape_btn_coral_fb</item>
+    </style>
+
+    <style name="BtnGoogle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shape_btn_coral_google</item>
+    </style>
+
+    <style name="pageTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">29sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="pageSubtitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="sectionHeader">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="blueButton">
+        <item name="android:background">@color/ColorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="header4">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#707070</item>
+    </style>
+
+    <style name="header5">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="title_wide_list">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="subtitle_wide_list">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FacebookLoginButton">
+        <item name="android:textSize">12dp</item>
+        <!--<item name="android:background">@drawable/facebook_signin_btn</item>-->
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="AppThemeTransparaent" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/font_small</item>
+    </style>
+
+    <style name="TabStripAppearance">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TabLayout_Theme" parent="@style/AppTheme">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="YellowToolbarTitle">
+        <item name="android:textColor">@color/ColorPrimaryYellow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="DetilPromotion">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="NewsCardViewStyle" parent="Theme.AppCompat.Light">
+        <item name="cardCornerRadius">2dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPaddingBottom">24dp</item>
+        <item name="contentPaddingTop">24dp</item>
+        <item name="contentPaddingLeft">16dp</item>
+        <item name="contentPaddingRight">16dp</item>
+        <item name="cardBackgroundColor">#FFCA28</item>
+    </style>
+
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/ColorPrimary">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:id="@+id/mToolbar"/>
+
+        <TextView
+            android:id="@+id/mTVtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nearby"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            style="@style/YellowToolbarTitle"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/relativeLayout3">
+
+        <ToggleButton
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:textOff="Active Now"
+            android:textOn="Active Now"
+            android:id="@+id/mTBactiveNow"
+            android:textAllCaps="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="true"
+            android:textColor="@color/nearby_toggle_text"
+            android:background="@drawable/nearby_toggle_selector"
+            android:textSize="13sp" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:textOff="My Cards"
+            android:textOn="My Cards"
+            android:textAllCaps="false"
+            android:id="@+id/mTBmyCards"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/mTBactiveNow"
+            android:layout_toEndOf="@+id/mTBactiveNow"
+            android:checked="false"
+            android:textColor="@color/nearby_toggle_text"
+            android:background="@drawable/nearby_toggle_selector"
+            android:layout_marginLeft="4dp"
+            android:textSize="13sp" />
+
+        <Spinner
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/sortbySpinner"
+            android:layout_width="150dp"
+            android:layout_height="28dp" />
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mIVfilter"
+            android:background="@drawable/ic_filter"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"/>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/oops"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="45sp"
+                android:textColor="@color/placeholder"
+                android:text="Oops!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@color/placeholder"
+                android:layout_marginTop="10dp"
+                android:text="We couldn't find anything"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mRVpromo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:scrollbars="none" />
+
+    <ProgressBar
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/progressBarScroll"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

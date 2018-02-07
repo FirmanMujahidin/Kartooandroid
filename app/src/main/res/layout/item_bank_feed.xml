@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:id="@+id/Rv"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/mIVicon" />
+
+        <View
+            android:layout_marginBottom="16dp"
+            android:background="@color/grey3"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/mIVicon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TVbody"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Rv"
+        android:layout_toLeftOf="@+id/mTVtime"
+        android:layout_toStartOf="@+id/mTVtime" />
+
+    <TextView
+        android:textColor="@color/validuntil"
+        android:textSize="12sp"
+        android:layout_marginRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mTVtime"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/IVpicture"
+        android:layout_below="@+id/more"
+        android:layout_alignLeft="@+id/TVbody"
+        android:layout_alignStart="@+id/TVbody" />
+
+    <TextView
+        android:textColor="@color/grey1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="more ..."
+        android:id="@+id/more"
+        android:layout_below="@+id/TVbody"
+        android:layout_alignLeft="@+id/TVbody"
+        android:layout_alignStart="@+id/TVbody" />
+
+    <View
+        android:layout_alignLeft="@+id/TVbody"
+        android:layout_alignStart="@+id/TVbody"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/grey3"
+        android:layout_width="fill_parent"
+        android:layout_height="0.7dp"
+        android:layout_below="@+id/IVpicture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

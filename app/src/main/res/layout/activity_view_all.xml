@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.kartoo.app.promo.AvailableOutlet.ViewAll">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/mToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:theme="@style/Theme.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:id="@+id/mTVtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View All"
+        style="@style/YellowToolbarTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_below="@+id/mToolbar"
+            android:id="@+id/mLLmaps"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <fragment
+                android:layout_marginBottom="10dp"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:id="@+id/map"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"/>
+            <android.support.v7.widget.RecyclerView
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:scrollbars="vertical"
+                android:scrollbarSize="0dp"
+                android:id="@+id/mLVseeAll"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent">
+            </android.support.v7.widget.RecyclerView>
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/progressBar"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+</RelativeLayout>

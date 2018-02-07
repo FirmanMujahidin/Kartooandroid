@@ -1,0 +1,178 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=us-ascii">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.1  (FreeBSD/amd64)">
+	<META NAME="CREATED" CONTENT="20160321;2285300">
+	<META NAME="CHANGED" CONTENT="0;0">
+	<META NAME="AppVersion" CONTENT="16.0000">
+	<META NAME="DocSecurity" CONTENT="0">
+	<META NAME="HyperlinksChanged" CONTENT="false">
+	<META NAME="LinksUpToDate" CONTENT="false">
+	<META NAME="ScaleCrop" CONTENT="false">
+	<META NAME="ShareDoc" CONTENT="false">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 1in }
+		P { margin-bottom: 0.08in; direction: ltr; color: #000000; line-height: 100%; widows: 2; orphans: 2 }
+		P.western { font-size: 12pt }
+		P.cjk { font-size: 12pt }
+		P.ctl { font-family: ; font-size: 12pt }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" TEXT="#000000" DIR="LTR">
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Helvetica Neue Medium, serif">PRIVACY
+POLICY</FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">KARTOO
+is committed to protecting the privacy of its user, and takes it as
+its responsibilities regarding the security of customer information
+very seriously. This policy explains how we use customer information
+and how we protect user privacy.</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Use
+	of Customer Information&nbsp;we require certain information to allow
+	us to process user preference to better personalized the app for the
+	user. KARTOO collects the details provided by user, together with
+	information we learn about user from their use of our app and other
+	sites and/or forum accessible from them.</FONT></FONT></P>
+</OL>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">We
+may collect additional information in connection with user
+participation in any promotions, social and gamification offered
+within the app and also any information user may have provide by
+giving us feedback.</FONT></FONT></P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">We
+will use user information to provide and personalize our service. We
+will also use user contact details to communicate with user. We may
+use user&rsquo;s information to send offers and news about KARTOO
+products and services or those of other carefully selected companies,
+which we think, may be of interest to user. We may contact user by
+post, email, telephone (including SMS) or fax for these purposes.
+User confirmation e-mails and/or text message may include marketing
+material which we may feel will be of interest to user from other
+third parties. </FONT></FONT>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">User&rsquo;s
+data may be used for the following purposes: administrative and legal
+purposes, statistical and marketing analysis, systems testing,
+maintenance and development, customer surveys, customer relations and
+to help us in any future dealings with user, for example by
+identifying user&rsquo;s requirements and preferences.</FONT></FONT></P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">We
+like to receive feedback from our customers to help us improve our
+service. We may contact user by post, e-mail, telephone, fax or any
+other communication means to acquire user&rsquo;s feed back.</FONT></FONT></P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Please
+note there may be instances where it may be necessary for us to
+communicate with user for administrative or operational purposes
+relating to, for example, to advise user on the validity and fitting
+promotions available.</FONT></FONT></P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">We
+may also use and analyze any information that we collect so that we
+can administer, support, improve and develop our business.</FONT></FONT></P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">The
+information that user provides to us will be held in our systems,
+which are located on our premises or those of an appointed third
+party. We may also allow access to user information by other third
+parties who act for us for the purposes set out in this policy or for
+other purposes approved by user. </FONT></FONT>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<OL START=2>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">KARTOO
+	may use tracking software to monitor customer traffic patterns and
+	app usage to help us develop the design and function within the app
+	to better meet the needs of user. </FONT></FONT>
+	</P>
+</OL>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<OL START=3>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Security
+	to protect user information and data retention&nbsp;when user
+	register and log-in using social media (Google+ and Facebook)</FONT></FONT></P>
+</OL>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">In
+the circumstances set out in this policy where KARTOO passes user
+information to a third party, we will ensure that the security
+measures that such party has in place in relation to the processing
+of user&rsquo;s data are at least as stringent as those employed by
+KARTOO. This does not apply where we are required by law to pass
+user&rsquo;s information to a third party.</FONT></FONT></P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">We
+may have to retain User&rsquo;s information for a reasonable period
+or as long as the law requires.</FONT></FONT></P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<OL START=4>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">Disclosure
+	to third parties&nbsp;of user&rsquo;s information may be passed to
+	and used by PT. KARTOO APLIKASI INDONESIA. We may pass on user&rsquo;s
+	information to other party that we think could be of interest to the
+	user or as government body as required by Law.</FONT></FONT></P>
+</OL>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">KARTOO
+or our partners may also send user, details of other products, which
+we think, may be of interest. </FONT></FONT>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">From
+time to time, KARTOO may make certain third party offers available
+through our site. If user chooses to accept such an offer, we will
+disclose user&rsquo;s information to the third party who made the
+offer available to user.</FONT></FONT></P>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<OL START=5>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">User
+	has given their consent&nbsp;by using the KARTOO app, including
+	consent to the collection and use of this information by PT. KARTOO
+	APLIKASI INDONESIA, in the ways described above.</FONT></FONT></P>
+</OL>
+<P STYLE="margin-left: 0.25in; margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">If
+user has any further questions about our Privacy Policy or its
+implementation, please contact our customer services department. If
+we decide to change our Privacy Policy, we will post those changes on
+this page so that are always aware of what information we collect,
+how we use it and in what circumstances we disclose it.<BR></FONT></FONT><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">PT.
+KARTOO APLIKASI INDONESIA</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><A NAME="_GoBack"></A><FONT FACE="Helvetica Neue Light, serif"><FONT SIZE=2 STYLE="font-size: 11pt">hello@kartoo.co</FONT></FONT></P>
+<P CLASS="western" STYLE="margin-bottom: 0in"><BR>
+</P>
+</BODY>
+</HTML>

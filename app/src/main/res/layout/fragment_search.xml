@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:scrollHorizontally="true"
+        android:id="@+id/mETsearch"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:hint="Type a merchant name, mall, area, or bank name"
+        android:textColorHint="#99999999"
+        android:textColor="#000000"
+        android:background="#00ffffff"
+        android:imeOptions="actionSearch"
+        android:inputType="text"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mRVresult"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:scrollbars="horizontal"
+        android:layout_marginTop="60dp"/>
+</LinearLayout>
